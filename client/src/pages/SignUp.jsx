@@ -37,6 +37,8 @@ const SignUp = () => {
       setLoading(false);
       setError(null);
       navigate("/sign-in");
+      // Reset the form
+      setFormData({});
     } catch (error) {
       setLoading(false);
       setError(error.message);
