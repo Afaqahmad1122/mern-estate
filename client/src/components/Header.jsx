@@ -29,7 +29,7 @@ const Header = () => {
             <Link to={"/about"}>About</Link>
           </li>
           <li className="hover:underline text-slate-600 cursor-pointer transition-all ease-in duration-150">
-            <Link to={"/sign-in"}>SignIn</Link>
+            <Link to={"/sign-in"}>Signin</Link>
           </li>
         </ul>
       </div>
